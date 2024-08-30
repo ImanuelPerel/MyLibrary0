@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyC#Library0", "my cs library 0\MyC#Library0.csproj", "{384B5DF3-CC4C-4501-BA6C-F75B85E7EB4D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCsLibrary0", "my cs library 0\MyCsLibrary0.csproj", "{384B5DF3-CC4C-4501-BA6C-F75B85E7EB4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

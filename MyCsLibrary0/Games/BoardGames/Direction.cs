@@ -27,7 +27,7 @@ public class Direction
 
     private int y;
     public int Y { get => y; set { y = Math.Sign(value); } }
-    public Direction(int x, int y)
+    protected Direction(int x, int y)
     {
         X = x;
         Y = y;

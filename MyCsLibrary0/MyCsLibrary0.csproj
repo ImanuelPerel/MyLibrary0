@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Library</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<RootNamespace>MyCsLibrary0</RootNamespace>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<OutputPath>bin\Release\</OutputPath>
+		<!-- Explicit output path -->
+		<!-- NuGet Package Metadata -->
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageId>MyCsLibrary0</PackageId>
+		<Version>1.1.0</Version>
+		<Authors>Imanuel Perel</Authors>
+		<Company>Imanuel Perel</Company>
+		<Description>A library for board games and utilities.</Description>
+		<PackageTags>board games, utilities, csharp</PackageTags>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<RepositoryUrl>https://github.com/ImanuelPerel/myLibrary0</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="MSTest.TestFramework" Version="3.5.2" />
+	</ItemGroup>
+
+</Project>
